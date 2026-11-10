@@ -4,6 +4,8 @@ Python code and supporting derived data for *Beyond residential averages: Mobili
 
 Version **1.0.0**. Creator: **Weiwei Hao**, Anyang Institute of Technology.
 
+Archived v1.0.0: [Zenodo DOI 10.5281/zenodo.24113757](https://doi.org/10.5281/zenodo.24113757).
+
 ## Contents
 
 - `data/tables/`: frozen exposure summaries, T/E/H/A inputs, model/sensitivity/LOCO results, supplementary prediction results and numerical figure-source tables.
