@@ -1,4 +1,4 @@
-# WorldMove ozone exposure
+# Data and code for mobility-informed ozone exposure assessment across 33 Chinese cities
 
 Python code and supporting derived data for *Beyond residential averages: Mobility-related variability in ambient ozone exposure estimates across 33 Chinese cities*. The study pairs full-day residential-anchor and mobility-informed ambient ozone estimates across 33 city units and 153 dates in May–September 2019. Schedules are synthetic and ozone concentrations are modelled, not observed personal exposure.
 
@@ -43,6 +43,6 @@ Source records specify CC BY 4.0. Attribution, transformations and boundaries ar
 
 ## Citation and licence
 
-Please cite this code/data release using `CITATION.cff`. Creator: Weiwei Hao, Anyang Institute of Technology. Repository: [Weiwei-Hao/worldmove-ozone-exposure](https://github.com/Weiwei-Hao/worldmove-ozone-exposure). No manuscript DOI or ORCID is asserted.
+Please cite this code/data release using `CITATION.cff`. Creator: Weiwei Hao, Anyang Institute of Technology. Repository: [Weiwei-Hao/mobility-informed-ozone-exposure](https://github.com/Weiwei-Hao/mobility-informed-ozone-exposure). No manuscript DOI or ORCID is asserted.
 
 Original code is [MIT](LICENSE); original study-derived data are [CC BY 4.0](data/LICENSE). Attributed upstream selections retain their source terms. See [licensing scopes](LICENSE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
