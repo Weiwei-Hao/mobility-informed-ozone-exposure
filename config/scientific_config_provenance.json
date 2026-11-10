@@ -1,0 +1,17 @@
+{
+  "source": "data/processed/worldmove_mechanism_design_config.json",
+  "source_sha256": "3ea6a4f1aa3f266a6ab6c10066b8d26d87d3dbb842a34864ae34c760fdca6f1b",
+  "release_sha256": "3376676c401227df03537d620aaba234f365a2f4b038f85945119e22dcfac1f6",
+  "removed_workflow_metadata": [
+    "next_execution_model_recommendation",
+    "next_stage_authorized_by_design",
+    "executed_this_round",
+    "design_document",
+    "design_builder_sha256",
+    "variable_dictionary",
+    "variable_dictionary_sha256"
+  ],
+  "private_working_note_hash_gate": "empty in release; frozen-table checks or raw-input checks are used instead",
+  "all_retained_scientific_settings_identical": true,
+  "removed_non_scientific_method_source_count": 1
+}

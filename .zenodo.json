@@ -1,0 +1,37 @@
+{
+  "upload_type": "software",
+  "title": "WorldMove ozone exposure: research code and derived data",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Hao, Weiwei",
+      "affiliation": "Anyang Institute of Technology"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "description": "Python code and frozen derived data for paired residential-anchor and mobility-informed ambient ozone estimates across 33 Chinese city units and 153 common dates in May–September 2019. Creator: Weiwei Hao, Anyang Institute of Technology. Original code is licensed under MIT; original study-derived data and author-generated metadata are CC BY 4.0. The attributed real-input subset retains WorldMove v1 and ChinaHighO3 2019 v1 source CC BY 4.0 terms; source attribution and transformations are documented. Schedules are synthetic and ozone concentrations are modelled. Complete upstream products, external GIS layers, artwork and manuscript files are excluded. Supplied-data core models and LOCO were validated before release; the complete national-input chain and all sensitivity/ML refits were not rerun during publication.",
+  "keywords": [
+    "ozone",
+    "exposure assessment",
+    "mobility",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Weiwei-Hao/worldmove-ozone-exposure",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.30023491.v1",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.10035857",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ]
+}

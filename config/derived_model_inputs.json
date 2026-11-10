@@ -1,0 +1,52 @@
+[
+  {
+    "logical_path": "outputs/tables/worldmove_formal_city_date.csv",
+    "stored_path": "tables/worldmove_formal_city_date.csv",
+    "bytes": 1652918,
+    "sha256": "5a6b41d3996c30e03adc1ebde1d4d9a2e7b3a22a0bb59364aa6cce5e3ceb034b",
+    "rows": "5049",
+    "columns": "city;date;date_set;analysis_variant;anchor_rule;anchor_filter;sampled_schedule_count;valid_schedule_count;anchor_excluded_count;ambiguous_or_anchor_excluded_proportion;missing_or_out_of_support_pair_rate;missing_or_out_of_support_slot_rate;mean_R_ug_m3;mean_D_ug_m3;mean_delta_ug_m3;mean_abs_delta_ug_m3;median_delta_ug_m3;delta_q1_ug_m3;delta_q3_ug_m3;delta_iqr_ug_m3;positive_delta_proportion;negative_delta_proportion;zero_delta_proportion",
+    "role": "5049 primary city-date exposure summaries; Methods 2.4; Figures 3/4; model outcomes",
+    "kind": "author-generated derived result or frozen configuration/index"
+  },
+  {
+    "logical_path": "outputs/tables/worldmove_formal_city_may_sep.csv",
+    "stored_path": "tables/worldmove_formal_city_may_sep.csv",
+    "bytes": 21385,
+    "sha256": "c330337428606819dc9d71c69f896ca0ef6d060a4320f88ddd1f1c8865b4dc22",
+    "rows": "33",
+    "columns": "city;month;analysis_variant;date_count;date_equal_mean_R_ug_m3;date_equal_mean_D_ug_m3;date_equal_mean_delta_ug_m3;date_equal_mean_abs_delta_ug_m3;daily_mean_delta_sd_ug_m3;daily_mean_delta_q1_ug_m3;daily_mean_delta_q3_ug_m3;daily_mean_delta_iqr_ug_m3;daily_mean_abs_delta_sd_ug_m3;daily_mean_abs_delta_q1_ug_m3;daily_mean_abs_delta_q3_ug_m3;daily_mean_abs_delta_iqr_ug_m3;proportion_dates_mean_delta_gt_0;minimum_daily_mean_delta_ug_m3;maximum_daily_mean_delta_ug_m3;minimum_daily_mean_abs_delta_ug_m3;maximum_daily_mean_abs_delta_ug_m3;minimum_valid_schedule_count;maximum_valid_schedule_count;mean_missing_pair_rate;mean_missing_slot_rate;may_mean_delta_ug_m3;may_mean_abs_delta_ug_m3;june_mean_delta_ug_m3;june_mean_abs_delta_ug_m3;july_mean_delta_ug_m3;july_mean_abs_delta_ug_m3;august_mean_delta_ug_m3;august_mean_abs_delta_ug_m3;september_mean_delta_ug_m3;september_mean_abs_delta_ug_m3;month_mean_delta_range_ug_m3;month_mean_abs_delta_range_ug_m3",
+    "role": "33 primary study-period city summaries; Figures 2/5; Tables S2/S6",
+    "kind": "author-generated derived result or frozen configuration/index"
+  },
+  {
+    "logical_path": "outputs/tables/worldmove_formal_high_confidence.csv",
+    "stored_path": "tables/worldmove_formal_high_confidence.csv",
+    "bytes": 2267229,
+    "sha256": "322f527fb76a2592eded458a7fe92e30007ac557edb8e933c6d06282f88e2b41",
+    "rows": "5247",
+    "columns": "city;date;date_set;analysis_variant;anchor_rule;anchor_filter;sampled_schedule_count;valid_schedule_count;anchor_excluded_count;ambiguous_or_anchor_excluded_proportion;missing_or_out_of_support_pair_rate;missing_or_out_of_support_slot_rate;mean_R_ug_m3;mean_D_ug_m3;mean_delta_ug_m3;mean_abs_delta_ug_m3;median_delta_ug_m3;delta_q1_ug_m3;delta_q3_ug_m3;delta_iqr_ug_m3;positive_delta_proportion;negative_delta_proportion;zero_delta_proportion;common_valid_schedule_count;primary_mean_delta_on_common_ug_m3;high_confidence_minus_primary_mean_delta_on_common_ug_m3;primary_mean_abs_delta_on_common_ug_m3;high_confidence_minus_primary_mean_abs_delta_on_common_ug_m3;aggregation;month;date_count;date_equal_mean_R_ug_m3;date_equal_mean_D_ug_m3;date_equal_mean_delta_ug_m3;date_equal_mean_abs_delta_ug_m3;daily_mean_delta_sd_ug_m3;daily_mean_delta_q1_ug_m3;daily_mean_delta_q3_ug_m3;daily_mean_delta_iqr_ug_m3;daily_mean_abs_delta_sd_ug_m3;daily_mean_abs_delta_q1_ug_m3;daily_mean_abs_delta_q3_ug_m3;daily_mean_abs_delta_iqr_ug_m3;proportion_dates_mean_delta_gt_0;minimum_daily_mean_delta_ug_m3;maximum_daily_mean_delta_ug_m3;minimum_daily_mean_abs_delta_ug_m3;maximum_daily_mean_abs_delta_ug_m3;minimum_valid_schedule_count;maximum_valid_schedule_count;mean_missing_pair_rate;mean_missing_slot_rate;may_mean_delta_ug_m3;may_mean_abs_delta_ug_m3;june_mean_delta_ug_m3;june_mean_abs_delta_ug_m3;july_mean_delta_ug_m3;july_mean_abs_delta_ug_m3;august_mean_delta_ug_m3;august_mean_abs_delta_ug_m3;september_mean_delta_ug_m3;september_mean_abs_delta_ug_m3;month_mean_delta_range_ug_m3;month_mean_abs_delta_range_ug_m3",
+    "role": "Stricter-anchor daily/monthly/period outcomes; Figure S3/Table S2/Text S5",
+    "kind": "author-generated derived result or frozen configuration/index"
+  },
+  {
+    "logical_path": "outputs/tables/worldmove_mechanism_predictors_city.csv",
+    "stored_path": "tables/worldmove_mechanism_predictors_city.csv",
+    "bytes": 12215,
+    "sha256": "0f11142a88a2364161a0e0cd9acf2ea52fddb378ebc2c54421aff248d51f98f8",
+    "rows": "66",
+    "columns": "city;variant;T;E;Hbar;H90bar;Ubar;log_released_grid_count;released_grid_count;unique_valid_o3_cells;product_cell_to_released_grid_ratio;fixed_missing_released_grids;anchor_valid_n;away_slots;structural_no_mobility",
+    "role": "T/E/mean heterogeneity and support descriptors; Models/Table 1/S7; Text S4",
+    "kind": "author-generated derived result or frozen configuration/index"
+  },
+  {
+    "logical_path": "outputs/tables/worldmove_mechanism_predictors_city_date.csv",
+    "stored_path": "tables/worldmove_mechanism_predictors_city_date.csv",
+    "bytes": 3411236,
+    "sha256": "7bf17a10d211e07c9de5ba0f1c3c3e2be134d64f64edd252e3427589161e0cab",
+    "rows": "10098",
+    "columns": "city;date;variant;H;Hbar;Hw;A;Abar;Aw;U;Ubar;Uw;H90;H90bar;H90w;A90;A90bar;A90w;month;structural_no_mobility",
+    "role": "H/A/H90/A90/U and within deviations for both variants; Models/Table 1/S7; Text S4",
+    "kind": "author-generated derived result or frozen configuration/index"
+  }
+]

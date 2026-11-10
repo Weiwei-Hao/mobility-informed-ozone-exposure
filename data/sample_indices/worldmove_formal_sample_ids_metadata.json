@@ -1,0 +1,194 @@
+{
+  "frozen_at_utc": "2026-09-26T01:17:48.364632+00:00",
+  "sha256": "8730b01aa36725f02106984815558cd77e92a68cbd308fe5fb3a034aa6f30dcb",
+  "frame_sha256": "0b16267b944623e8f14b2b152a3b3363940e28ddbd5c939c07866a63e5325919",
+  "reference_source_sha256": "20b93b30b6daae7436e699bd2104d6d79b8cc4177b88e30c71d793712b6c7d1a",
+  "numpy_version": "2.4.6",
+  "sampling_rule": {
+    "raw_schedules_per_city": 5000,
+    "sample_before_anchor_qc": true,
+    "replace": false,
+    "seed": 20260810,
+    "algorithm": "For each new city independently: rng = numpy.random.default_rng(20260810); ids = numpy.sort(rng.choice(raw_schedule_count, size=5000, replace=False)). Default bit generator PCG64. Zero-based original NPZ row IDs. Reset RNG per city; persist IDs and their hash before assignment.",
+    "invalid_schedule_replacement": false,
+    "reference_city_instruction": "Reuse exact saved five-city IDs; do not regenerate.",
+    "reference_ids_file": "data/processed/worldmove_pilot_sample_ids.npz",
+    "reference_ids_sha256": "20b93b30b6daae7436e699bd2104d6d79b8cc4177b88e30c71d793712b6c7d1a",
+    "reference_id_arrays": {
+      "Beijing": "Beijing__sample5000",
+      "Shanghai": "Shanghai__sample5000",
+      "Nanchang": "Nanchang__sample5000",
+      "Chengdu": "Chengdu__sample5000",
+      "Zhengzhou": "Zhengzhou__sample5000"
+    },
+    "purpose": "Equal city-level design and manageable computation, not 5000 observed or valid residents per city.",
+    "new_city_ids_generated_at_freeze": false
+  },
+  "arrays": {
+    "Yinchuan__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "24a26bd01afd0197b61cd55033f0228a7723f4930c1d6913f2b899c1b67cab9e"
+    },
+    "Tianjin__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "5d3c2b96b42721547ec85a152197deaf43cc7ca5c3dedefdd4aa28ad6c0e8020"
+    },
+    "Nanning__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "20727dbad7de54137b2fb58ab0b3049c54cb6424d832dd1445aec95b98c1cbdc"
+    },
+    "Changchun__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "c5d820d2e76b9094230165e8812d8b8ba30a74ae44d0c437db48eeb3c2ffb3e5"
+    },
+    "Nanjing__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "b73569488bc81aabdc1c922c62b25442ba8238f838e1341a6d6c28539e02ff6a"
+    },
+    "Changsha__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "e0897fd0d30a93f785e2ff57082aa232c6d8337213f9f91f714aaa8a2df5d14f"
+    },
+    "Luoyang__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "a2cc6ca657df2f3f6f3285fe4ea1241c2a83cf58e2be2c027b20cadb95684b15"
+    },
+    "Lhasa__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "c2361beee17c085162a79a9f2dafb513d7ca5dbb2e2a29dd1173e9b1b8511e14"
+    },
+    "Tangshan__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "62749a73a7ea285bf9b7c0ec9f322df7eea8444f2e5eec30a10a8492ae292c14"
+    },
+    "Jilin__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "7dd206e95528d09935006a12b6750930a948a07c9f8bf9c8ca6f8d9bdfe115fd"
+    },
+    "Shijiazhuang__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "fc89d5fdff7e7398aa280dc77f70121337f7141c73cd2f28b86049809c22a10e"
+    },
+    "Hefei__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "32743dedc75f7aa2e24a3e3c072884eaf01c33de9704e365d681371462a78e89"
+    },
+    "Xining__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "0f5ba8537e1e728eaa061cb74ca6096ccb15e83e71c8e164fc86f4cfe6cbbff9"
+    },
+    "Lanzhou__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "2058a02b5e59498fab5a49a47ddcdfed7a1b7fefac67e24be149a4820b6c9771"
+    },
+    "Guiyang__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "07ec45ee2d2dc2bfd4ddf409521af18d8f5765107390388ac1bc36213ab61710"
+    },
+    "Fuzhou__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "f3ca4505b33ac829cb77ee770c3fa4c9233e7a0627bb82bfef70d719416ea334"
+    },
+    "Chongqing__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "36371e771f89f83eb20dff9364a26b1b5605dff3b22666c63e91216f4f223c9d"
+    },
+    "Zhengzhou__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "272a1ba6b1d40d5a3fad6eb07f72c57cfa5ba9ed349f40bc12c9a329a9618424"
+    },
+    "Wuhan__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "5344b61d879173ee8560f4b94d1429bd7bf2aff544a14c859ec3de1de461073f"
+    },
+    "Taiyuan__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "422efdcccf492d4ead4d2c76b37d3acdcfe0d9e786b4abb9fd2f72dbda41d1f1"
+    },
+    "Nanchang__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "786c620511ef6e096ef83bdd770325b17ca352582254d32d23e64d9efefc3295"
+    },
+    "Kunming__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "723c1d1996d32e893dfdfc60a4372efce2f1d9c8615d415016ce61f181cfaa1a"
+    },
+    "Jinan__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "c5f96bdf02dde830e8d792dd76155ab6d3cb492f8cde304bdc2b41c05e215359"
+    },
+    "Shenyang__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "af730f091334133c3545b8f8511365323d8d08bc8aa013d3a4ee647da5c47915"
+    },
+    "Harbin__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "19261a0cfc456afad67e4295c81275bf2457f4e17b5ff8c5dc5a580d529f6af1"
+    },
+    "Chengdu__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "6fe5ddb548fd184703854716751a14a48290245e206b8aa3d85bf0e1e50374da"
+    },
+    "Beijing__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "6fe5ddb548fd184703854716751a14a48290245e206b8aa3d85bf0e1e50374da"
+    },
+    "Guangzhou__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "6fe5ddb548fd184703854716751a14a48290245e206b8aa3d85bf0e1e50374da"
+    },
+    "Shanghai__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "6fe5ddb548fd184703854716751a14a48290245e206b8aa3d85bf0e1e50374da"
+    },
+    "Baotou__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "0be411a017a22e3ccf28d7a7baa6b4db71742c622b26f980573b922fee3ce9b1"
+    },
+    "Qiqihar__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "7acfd649c078e09daff8d6692115562ed958382a67355981894c002a1415d8e5"
+    },
+    "Anshan__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "204292d7fa049b8c6cf158cca326f5cce2231eaf5b9d3f923273581ba6758284"
+    },
+    "Huhot__sample5000": {
+      "n": 5000,
+      "dtype": "int64",
+      "sha256_c_order_bytes": "74352162a8b969d1cb4b93b3b92fda2c9f64bf9b478335ea31bf29bea36486af"
+    }
+  }
+}

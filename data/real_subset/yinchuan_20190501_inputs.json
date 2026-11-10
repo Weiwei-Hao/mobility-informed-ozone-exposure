@@ -1,0 +1,16 @@
+{
+  "city": "Yinchuan",
+  "date": "2019-05-01",
+  "kind": "REAL FROZEN MODEL INPUT SUBSET; synthetic schedules and modelled ambient ozone; not observations or demo data",
+  "source_hashes": {
+    "data/raw/worldmove/1126_CN_Yinchuan.npz": "59e3beba3b1d0645100f6571f2d2c9a91165d0023322e92f3cf5cb91cfd24a10",
+    "data/processed/worldmove_formal_sample_ids.npz": "8730b01aa36725f02106984815558cd77e92a68cbd308fe5fb3a034aa6f30dcb",
+    "data/processed/worldmove_frame_audit/mappings.json": "e060e147bcc8c0ded8eecf98becc1b09ef32da87ed89de272924929d7ea7a2a3",
+    "data/processed/worldmove_formal_o3_cache/2019-05-01.npz": "e26726e51df1cb7b6d9eb04fbb6a2fb18dc7b41cee2b6e61abdb79a5f02c1ce0"
+  },
+  "concentration_unit": "ug m-3",
+  "clock": "Beijing UTC+8; half-hour slot // 2",
+  "derivation": "Exact selected original schedule rows and sparse unique product cells from the saved decoded crop; actual NetCDF coordinate axes. No invented or re-estimated values.",
+  "attribution": "WorldMove: Yuan, Yuan (2025), 10.6084/m9.figshare.30023491.v1; ChinaHighO3: Cheng, Fan; Li, Zhanqing; Wei, Jing (2023), 10.5281/zenodo.10035857. Both upstream records CC BY 4.0.",
+  "fixture_sha256": "169d423ff91b277fb32405ed8dac954bed26d042a8a23d479633ac1b15b18ee6"
+}

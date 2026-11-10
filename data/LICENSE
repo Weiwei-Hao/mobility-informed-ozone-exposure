@@ -1,0 +1,14 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright 2026 Weiwei Hao for original study-derived results and author-generated data metadata.
+
+The original derived tables, frozen selection indices and associated author-generated data metadata in this directory are licensed under the Creative Commons Attribution 4.0 International licence:
+https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+You may share and adapt these materials under that licence, subject to its attribution, licence-link and indication-of-changes requirements. Attribute Weiwei Hao, Anyang Institute of Technology, and cite this code/data release and its actual version DOI when available.
+
+THIRD-PARTY SCOPE
+The real_subset files select and transform upstream WorldMove v1 and ChinaHighO3 H1K 2019 v1 material. They retain their existing source CC BY 4.0 terms and source attributions; no original ownership of those datasets is claimed. The subset metadata and THIRD_PARTY_NOTICES.md record creators, source DOIs and transformations. Preserve those notices alongside attribution to this study. Whole upstream products and third-party GIS layers are not included.
+
+Python code is separately licensed under the root MIT LICENSE. This licence grants only rights held by the licensor and does not remove source obligations or third-party rights.

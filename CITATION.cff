@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or derived data, please cite this release."
+title: "WorldMove ozone exposure: research code and derived data"
+type: software
+version: 1.0.0
+date-released: 2026-11-10
+authors:
+  - given-names: Weiwei
+    family-names: Hao
+    affiliation: Anyang Institute of Technology
+repository-code: "https://github.com/Weiwei-Hao/worldmove-ozone-exposure"
+url: "https://github.com/Weiwei-Hao/worldmove-ozone-exposure"
+license: MIT
+abstract: "Paired ambient ozone exposure calculations and statistical analysis across 33 Chinese city units and 153 common dates, with frozen derived data and sample indices. Original code is MIT; original derived data are CC BY 4.0. Attributed upstream selections retain their source terms."
+keywords:
+  - ozone
+  - exposure assessment
+  - mobility
+  - reproducibility

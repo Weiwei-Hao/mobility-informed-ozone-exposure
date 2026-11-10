@@ -1,0 +1,50 @@
+{
+  "verification_date": "2026-11-09",
+  "WorldMove": {
+    "doi": "10.6084/m9.figshare.30023491.v1",
+    "version": 1,
+    "creators": [
+      "Yuan Yuan"
+    ],
+    "license": {
+      "value": 1,
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "metadata_source": "data/raw/worldmove/figshare_metadata.json",
+    "metadata_sha256": "09570640d4ae36a269a461f99c460a5e60e599adc12cbb0082794037775374c3",
+    "citation": "Yuan, Yuan (2025). WorldMove Dataset. figshare. Dataset. https://doi.org/10.6084/m9.figshare.30023491.v1",
+    "source_url": "https://api.figshare.com/v2/articles/30023491/versions/1",
+    "record_access_date": "2026-11-09",
+    "version_specific_online_metadata_verified": true,
+    "archive_files": [
+      {
+        "name": "data.zip",
+        "id": 57561772,
+        "size": 3088383990,
+        "computed_md5": "63f64cbb68d754cc04069eb8dbeca3ad",
+        "download_url": "https://ndownloader.figshare.com/files/57561772"
+      }
+    ]
+  },
+  "ChinaHighO3": {
+    "doi": "10.5281/zenodo.10035857",
+    "version": "1",
+    "creators": [
+      "Cheng, Fan",
+      "Li, Zhanqing",
+      "Wei, Jing"
+    ],
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "publication_date": "2023-10-24",
+    "source_url": "https://zenodo.org/api/records/10035857",
+    "selected_dates": [
+      "2019-05-01",
+      "2019-09-30"
+    ],
+    "time_zone": "Beijing time UTC+8",
+    "record_access_date": "2026-11-09"
+  }
+}

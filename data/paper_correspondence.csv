@@ -1,0 +1,10 @@
+paper_item,inputs,note
+Table 1,worldmove_mechanism_between_primary.csv; worldmove_mechanism_within_primary.csv,Primary raw coefficients and intervals
+Table S1; Text S1,FigureS1_eligibility_support_eligibility.csv; worldmove_formal_city_frame.json,43 candidate eligibility decisions and final 33-unit frame
+Table S2; Texts S1-S3,worldmove_formal_city_may_sep.csv; worldmove_formal_high_confidence.csv; worldmove_formal_sample_counts.csv; study_unit_coordinates.csv,"City key, selected denominators and primary/stricter results"
+Table S3; Texts S2-S4,data_dictionary.csv; array_dictionary.csv; code config/worldmove_mechanism_design_config.json,"Symbols, calculation order, units and analysis levels"
+Table S4; Texts S5-S6,code config/worldmove_mechanism_design_config.json; code scripts/production/run_worldmove_mechanism_models.py,"Original explicit design-column counts, covariance correction and t references; no new fitting"
+Table S5; Text S6,code config/worldmove_mechanism_design_config.json:xgboost.parameters,"Exact frozen XGBoost settings, not tuned during release preparation"
+Table S6,worldmove_formal_temporal_variability.csv; worldmove_formal_descriptive_summary.json; worldmove_formal_high_confidence.csv,Stored descriptive and anchor-subset results
+Table S7; Text S5,worldmove_mechanism_between_primary.csv; between_sensitivity.csv; within_primary.csv; within_sensitivity.csv,Full coefficient/fit results; selected table quantities are stored summaries
+Tables S8-S10; Text S6,worldmove_mechanism_ml_summary.csv; ml_city_scores.csv; ml_oof_predictions.csv,Overall and per-city frozen predictive performance and all criterion outcomes

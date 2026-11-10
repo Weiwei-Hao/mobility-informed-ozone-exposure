@@ -1,0 +1,11 @@
+# Frozen analysis specification
+
+The supplied configurations record the actual study. Mechanism predictors and model structures were frozen on 2026-09-26 before formal mechanism association/model results were inspected. Descriptive exposure results and earlier QA were already known. This was **not** an outcome-blind preregistration of the complete study.
+
+Primary outcome: city-date Y = mean over complete schedules of abs(full-day D−R); study-period city Y is the equal-date 153-day mean. Signed S is descriptive. Between-city model: intercept + T + E + Hbar over 33 equal-city means, HC3 with model-specific Student-t references. Within-city model: city-demeaned Y against Hw and Aw, Driscoll–Kraay covariance from date-grouped scores, Bartlett lag seven, `use_correction='hac'`, fixed t32 including the 30-city sensitivity. Intervals are unadjusted pointwise conditional model intervals and do not propagate mobility/ozone input uncertainty.
+
+Sensitivity branches preserve strict anchors, P90−P10 substitution, between-city log released-grid count, fixed-mask removal of Shanghai/Tangshan/Guangzhou, between-city background, and joint within-city background/month adjustment. LOCO excludes a whole city; temporal scoring is retrospective over the shared 153 dates and is not future-date validation. Supplemental XGBoost uses five fixed descriptors, city-grouped holdout and a training-fold mean base_score; parameters and criteria are in the original config. There is no feature search, new tuning, random-row split or newly added branch.
+
+Exact scientific definitions and parameters are in `config/worldmove_mechanism_design_config.json`. H, A and Y share the ozone product. They are not independent measurement streams, and their associations do not establish causal effects or personal-exposure accuracy.
+
+The public config omits workflow-only recommendations, private working-note hash gates and references to an unshipped rejected-variable dictionary. All retained scientific settings are identical to the source config; removed keys and original/release hashes are recorded in `config/scientific_config_provenance.json`. These changes do not alter predictors, outcomes, sample selection, model specifications, sensitivities, covariance settings or ML parameters.
