@@ -4,7 +4,7 @@ Python code and supporting derived data for *Beyond residential averages: Mobili
 
 Version **1.0.0**. Creator: **Weiwei Hao**, Anyang Institute of Technology.
 
-Archived v1.0.0: [Zenodo DOI 10.5281/zenodo.24113757](https://doi.org/10.5281/zenodo.24113757).
+For reproduction, use the [v1.0.0 release](https://github.com/Weiwei-Hao/mobility-informed-ozone-exposure/releases/tag/v1.0.0) or its [Zenodo archive (DOI 10.5281/zenodo.24113757)](https://doi.org/10.5281/zenodo.24113757). The default branch includes a [post-release guide to the final supplementary tables and figure](data/README.md#final-supplementary-material).
 
 ## Contents
 
